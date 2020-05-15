@@ -46,8 +46,12 @@ body{
     display: flex;
     justify-content: space-around;
 }
-
 .options button{
+    border: none;
+    background: transparent;
+}
+
+.options button a{
     background: rgb(30, 113, 236);
     color: white;
     border: none;
@@ -55,6 +59,11 @@ body{
     border-radius: 8px;
     font-weight: bold;
     font-size: 25px;
+}
+
+.options button a:hover{
+    background-color: rgb(62, 62, 255);
+    transition: 0.3s;
 }
 
 .logo-guilu img{

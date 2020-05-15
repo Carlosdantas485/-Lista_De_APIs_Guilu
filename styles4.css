@@ -35,16 +35,27 @@
     justify-content: space-around;
 }
 
-.options button{
+.options button {
     margin-top: 7%;
     background: rgb(30, 113, 236);
-    color: white;
     border: none;
     padding: 5px 10px;
     border-radius: 8px;
     font-weight: bold;
     font-size: 25px;
 }
+.options button a{
+    color: white;
+}
+
+.options button:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+    background-color: rgb(71, 71, 253);
+}
+
+
+
 
 
 @media(max-width: 768px){
