@@ -15,11 +15,11 @@
     color: black;
     padding: 15px;
 }
-
 .header-api{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: bold;
 }
 
 .options-api a img{
@@ -30,23 +30,21 @@
     text-decoration: none;
 }
 
+.icon-pencil{
+    background-image: url(btn_edit_claro.jpg);
+}
+
 .icon-lixo{
     cursor: pointer;
 }
 
 .icon-pencil:hover{
-    
-}
-
-
-
-.icon-lixo:hover{
-    transition: 0.3s;
-    background: rgb(202, 202, 202);
+    background-image: url(btn_edit_escuro.jpg);
 }
 
 .info-api{
     margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 
     display: flex;
     justify-content: space-between;
@@ -85,6 +83,8 @@
 .date-time{
     margin-top: 20px;
     font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
     display: flex;
     justify-content: space-between;
 }
