@@ -1,0 +1,59 @@
+.title-api{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 200%;
+}
+.api-list{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.status{
+    background-color: rgb(5, 218, 5);
+    color: white;
+    margin: 5px;
+    width: 90px;
+    padding: 5px;
+    font-size: 80%;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.api{
+    padding: 10px;
+    width: 90vw;
+    border: 2px solid rgb(212, 211, 211);
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+
+.api:hover{
+    background: rgb(177, 177, 177);
+
+}
+
+.api:hover{
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+.api{
+    display: flex;
+    justify-content: space-around;
+}
+
+.api-type{
+    display: flex;
+    align-items: center;
+}
+
+.api-status{
+    display: flex;
+    align-items: center;
+}
