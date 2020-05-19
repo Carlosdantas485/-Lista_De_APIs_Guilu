@@ -13,17 +13,13 @@
     </head>
     <body >
         <header class="container">
-            <div class="header">
-                <div class="header-box">
-                    <img src="./logo.png" alt="logo guilu">
-                </div>
-                <div class="header-box">
-                    <h1>LISTA DE APIs</h1>
-                </div>
-                <a href="form.html">
-                    <div class="plus-option">
-                        <img id="img-header-option" src="./plus.png" alt="">
-                        <p class="option-link">NOVA API</p>
+            <div class="header" src="listagem.html">
+                <img src="./logo.png" alt="logo guilu" class="logo-guilu">
+                <h1>Lista de APIs</h1>
+                <a class="option-link" href="./form.html">
+                    <div class="header-btn-plus">
+                        <img id="img-header-option" src="./add.png" alt="">
+                        <p>Nova Api</p>
                     </div>
                 </a>
             </div>
@@ -37,7 +33,7 @@
                                 <h2>OMDB</h2>
                                 <div class="options-api">
                                     <a  class="pencil" href="./update.html">
-                                        <img class="pencil-icon" src="./btn_edit_claro.jpg"/>
+                                        <img class="icon-pencil" src="./btn_edit_claro.jpg"/>
                                     </a>
                                     <a onclick={deleta()}>
                                         <img class="icon-lixo" src="./btn_excluir_claro.jpg">
@@ -1337,7 +1333,7 @@
     </body>
     <footer>
         <div class="footer">
-            <p>DESENVOLVIDO POR:</p>
+            <p>Desenvolvido por:</p>
             <a href="http://www.guilu.com.br/"><img src="footer.png"></a>
         </div>
     </footer>

@@ -37,87 +37,71 @@ main{
     color:white;
     top: 0;
     padding: 0.6%;
+    position: fixed;
 
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: fixed;
-    
 }
 
-.header-box{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.header img{
+.logo-guilu{
     padding: 5px;
-    width: 250px;
+    width: 150px;
 }
 
 .header h1{
     font-size: 140%;
 }
 
-.back-img{
-    margin-right: 20px;
-    margin-bottom: 10px;
-    padding: 5px;
-    width: 140px ;
+.header-btn-back{
+    width: 120px;
+    background-color: rgb(102, 228, 0);
+    padding: 10px;
     border-radius: 5px;
-    background-color: rgb(5, 218, 5);
-
-    display: flex;
-    align-items: center;   
-}
-
-.back-img:hover{
-    transform: scale(1.03);
-    transition: 0.3s;
-    background-color: rgb(4, 196, 4);
-
-}
-
-.plus-option{
-    margin-right: 20px;
-    margin-bottom: 10px;
-    padding: 5px;
-    background-color: rgb(24, 118, 241);
-    width: 140px ;
-    border-radius: 5px;
+    border: 1px solid rgb(91, 255, 91);
 
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.plus-option:hover{
+.header-btn-back:hover{
     transform: scale(1.03);
-    transition: 0.3s;
-    background-color: rgb(0, 94, 218);
+    transition: 0.4s;
+    box-shadow:1px 1px 15px;
+}
+
+.header-btn-plus{
+    width: 120px;
+    background-color: rgb(253, 40, 93);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-btn-plus:hover{
+    transform: scale(1.03);
+    transition: 0.4s;
+    box-shadow:1px 1px 15px;
 
 }
 
 .option-link{
     color: white;
     font-weight: bold;
-    font-size: 20px;
-    width: 100px;
-    text-decoration: underline white;
-}
-
-.back-img a{
-    color: white;
+    font-size: 140%;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    width: 100px;
 }
 
 #img-header-option{
-    width: 30px;
-
+    width: 18px;
+    margin-right: 10px;
 }
+
 footer{
     
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,19,121,1) 32%, rgba(0,212,255,1) 100%);
@@ -141,36 +125,16 @@ footer{
     height: 20px;
 }
 
-@media(max-width:786px){
-    main{
-        margin-bottom: 70px;
-        margin-top: 190px;
-    }
-
+@media(max-width:768px){
+  
     .header{
+        height: 200px;
         display: flex;
         flex-direction: column;
     }
 
-    .header img{
-        margin: 0;
-    }
-    
-    .header h1{
-        margin: 10px 0;
-    }
-    .option-header{
-        margin: 0;
+    ul{
+        margin-top: 140px;   
     }
 
-    .option-header-back{
-        margin: 0;
-        margin-bottom: 10px;
-        width: 130px;
-    }
-
-    .plus-option{
-        margin-right: 0px;
-
-    }
 }

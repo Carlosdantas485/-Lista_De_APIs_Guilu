@@ -76,7 +76,7 @@
     align-items: center;
 }
 
-@media(max-width: 786px){
+@media(max-width: 768px){
     .api{
         flex-direction: column;
         justify-content: space-around;
